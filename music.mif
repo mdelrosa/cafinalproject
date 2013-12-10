@@ -1,0 +1,135 @@
+-- Copyright (C) 1991-2003 Altera Corporation
+-- Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+-- support information,  device programming or simulation file,  and any other
+-- associated  documentation or information  provided by  Altera  or a partner
+-- under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+-- to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+-- other  use  of such  megafunction  design,  netlist,  support  information,
+-- device programming or simulation file,  or any other  related documentation
+-- or information  is prohibited  for  any  other purpose,  including, but not
+-- limited to  modification,  reverse engineering,  de-compiling, or use  with
+-- any other  silicon devices,  unless such use is  explicitly  licensed under
+-- a separate agreement with  Altera  or a megafunction partner.  Title to the
+-- intellectual property,  including patents,  copyrights,  trademarks,  trade
+-- secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+-- support  information,  device programming or simulation file,  or any other
+-- related documentation or information provided by  Altera  or a megafunction
+-- partner, remains with Altera, the megafunction partner, or their respective
+-- licensors. No other licenses, including any licenses needed under any third
+-- party's intellectual property, are provided herein.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=256;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	0    :   25;
+	[1..2]  :   27;
+	3    :   25;
+	[4..5]  :   22;
+	[6..7]  :   30;
+	[8..9]  :   27;
+	[10..15]  :   25;
+	16   :   0;
+	17   :   25;
+	18   :   27;
+	19   :   25;
+	20   :   27;
+	[21..22]  :   25;
+	[23..24]  :   30;
+	[25..32]  :   29;
+	33   :   23;
+	[34..35]  :   25;
+	36   :   23;
+	[37..38]  :   20;
+	[39..40]  :   29;
+	[41..42]  :   27;
+	[43..49]  :   25;
+	50   :   0;
+	51   :   25;
+	52   :   27;
+	53   :   25;
+	54   :   27;
+	[55..56]  :   25;
+	[57..58]  :   27;
+	[59..66]  :   22;
+	67   :   25;
+	[68..69]  :   27;
+	70   :   25;
+	[71..72]  :   22;
+	[73..74]  :   30;
+	[75..76]  :   27;
+	[77..82]  :   25;
+	83   :   0;
+	84   :   25;
+	85   :   27;
+	86   :   25;
+	87   :   27;
+	[88..89]  :   25;
+	[90..91]  :   30;
+	[92..99]  :   29;
+	100  :   23;
+	[101..102]  :   25;
+	103  :   23;
+	[104..105]  :   20;
+	[106..107]  :   29;
+	[108..109]  :   27;
+	[110..116]  :   25;
+	117  :   0;
+	118  :   25;
+	119  :   27;
+	120  :   25;
+	121  :   27;
+	[122..123]  :   25;
+	[124..125]  :   32;
+	[126..133]  :   30;
+	[134..137]  :   27;
+	[138..141]  :   30;
+	142  :   27;
+	[143..144]  :   25;
+	[145..146]  :   22;
+	[147..150]  :   25;
+	[151..152]  :   23;
+	[153..154]  :   27;
+	[155..156]  :   25;
+	[157..158]  :   23;
+	[159..166]  :   22;
+	[167..168]  :   20;
+	[169..170]  :   22;
+	[171..172]  :   25;
+	[173..174]  :   27;
+	[175..182]  :   29;
+	[183..186]  :   30;
+	[187..188]  :   29;
+	[189..190]  :   27;
+	[191..192]  :   25;
+	193  :   23;
+	[194..197]  :   20;
+	198  :   25;
+	[199..200]  :   27;
+	201  :   25;
+	[202..203]  :   22;
+	[204..205]  :   30;
+	[206..207]  :   27;
+	[208..213]  :   25;
+	214  :   0;
+	215  :   25;
+	216  :   27;
+	217  :   25;
+	218  :   27;
+	[219..220]  :   25;
+	[221..222]  :   30;
+	[223..230]  :   29;
+	231  :   23;
+	[232..233]  :   25;
+	234  :   23;
+	[235..236]  :   20;
+	[237..238]  :   29;
+	[239..240]  :   27;
+	[241..247]  :   25;
+	[248..255]  :   0;
+END;
