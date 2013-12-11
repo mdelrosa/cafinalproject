@@ -29,8 +29,8 @@ endmodule
 module music_with_parameter(clk, speaker, notehz);  //if you give this module the HZ of the note that you want to play then it plays that note
 input clk;
 output speaker;
-input notehz
-parameter clkdivider = 25000000/notehz/2;
+input notehz;
+wire clkdivider = 25000000/notehz/2;
 
 reg [14:0] counter;
 always @(posedge clk) if(counter==0) counter <= clkdivider-1; else counter <= counter-1;
