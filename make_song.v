@@ -1,7 +1,7 @@
 module music_code(
-	input clk,
+	input clock,
 	output speaker,
-	input [14:0] value
+	input [14:0] value,
 	input  enable);
 
 reg flipper;
@@ -19,12 +19,11 @@ always @(posedge clk)
 
 endmodule
 
-module song(
-  input sw0, 
+module make_song(
   input clk, 
   output [1:0] speaker
 ); 
 
-music_code c1(clk, speaker[0], 28408);
-music_code c2(clk, speaker[1], 20408);
+music_code c1(clk, speaker1, 28408);
+music_code c2(clk, speaker2, 20408);
 endmodule
