@@ -1,8 +1,8 @@
 module music_code(
 	input clk,
 	output speaker,
-	input value
-	input enable);
+	input [14:0] value
+	input  enable);
 
 reg flipper;
 assign speaker = flipper;
@@ -27,7 +27,7 @@ module song(
 ); 
 
 reg [14:0] enable
-reg [14:0] counter_time
+reg [14:0] counter_time 
 music_code(clk, speaker, 28408, enable[0]);
 music_code(clk, speaker, 20408, enable[1]);
 
@@ -38,6 +38,6 @@ always @(posedge clk) begin
     enable = enable >> 1;
     counter_time = 0;
   end
-else counter_time = counter_time + 1
+else counter_time = counter_time + 1;
   
 endmodule

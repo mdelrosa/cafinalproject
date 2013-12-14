@@ -1,8 +1,8 @@
+
 module music_code(
 	input clk,
 	output speaker,
-	input value
-	input enable);
+	input [32:0] value);
 
 reg flipper;
 assign speaker = flipper;
@@ -10,34 +10,36 @@ assign speaker = flipper;
 reg [14:0] counter;
 
 always @(posedge clk)
-  if (enable = 1) begin
 		if(counter==value) begin
 			counter <= 0;
 			flipper <= ~flipper;
 		end else counter <= counter+1;
-		end
 
 
 endmodule
 
-module song(
+module LUT_song(
   input sw0, 
   input clk, 
   output speaker
 ); 
 
-reg [14:0] enable
-reg [14:0] counter_time 
-music_code(clk, speaker, 28408, enable[0]);
-music_code(clk, speaker, 20408, enable[1]);
+reg [14:0] counter_time; 
+reg [32:0] LUT [0:32];
+reg [32:0] note_index;
 
-counter_time = 0
-enable = B1
+initial readmemb("file.dat");
+
+music_code(clk, speaker, LUT [note_index]);
+
 always @(posedge clk) begin
-  if counter ==(SOMETHING) begin
-    enable = enable >> 1;
+  if (counter_time ==20910) begin
+    note_index = note_index+1;
     counter_time = 0;
   end
 else counter_time = counter_time + 1;
+
+end
+
   
 endmodule
