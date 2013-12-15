@@ -3,7 +3,7 @@
 module switching(
 	input [6:0] switches,
 	input clk,
-	output [6:0] speaker
+	output [6:0] speaker,
 );
 
 reg [6:0] flipper;
