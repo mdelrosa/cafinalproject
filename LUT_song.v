@@ -19,7 +19,7 @@ endmodule
 module LUT_song(
   input clk,
   output speaker
-); 
+);
 
 	reg [14:0] counter_time; 
 	reg [31:0] LUT [0:127];
