@@ -1,0 +1,7 @@
+NET "clk" LOC = A8;
+NET "speaker[0]" LOC = T12;
+NET "speaker[1]" LOC = R11;
+
+INSTRUCTIONS=============
+speaker[6:0] will be assigned to B pins
+switches[7:0] will be assigned to the switches as started here
