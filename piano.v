@@ -1,6 +1,6 @@
-//outputs wave forms depending on what switches are high
+//outputs waveforms depending on what switches are high
 
-module switching(
+module piano(
 	input [6:0] switches,
 	input clk,
 	output [6:0] speaker
