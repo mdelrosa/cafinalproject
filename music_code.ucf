@@ -1,9 +1,0 @@
-NET "clk" LOC = A8;
-NET "speaker" LOC = T12;
-// SW1 = J16
-// SW2 = K16
-// SW3 = K15
-// SW4 = L15
-// SW5 = M16
-// SW6 = M15
-// SW7 = N16
