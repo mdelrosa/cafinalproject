@@ -21,8 +21,8 @@ module LUT_song(
   output speaker
 );
 
-	reg [14:0] counter_time; 
-	reg [31:0] LUT [0:127];
+	reg [31:0] counter_time; 
+	reg [6:0] LUT [0:127];
 	reg [31:0] note_index;
 
 	initial readmemb("merrychristmas.txt", LUT);
@@ -30,7 +30,7 @@ module LUT_song(
 	play_note note(clk, speaker, LUT[note_index]);
 
 	always @(posedge clk) begin
-		if (counter_time == 20910) begin
+		if (counter_time == 'd10_000_000_000) begin
 			note_index = note_index+1;
 			counter_time = 0;
 		end else counter_time = counter_time + 1;
