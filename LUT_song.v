@@ -10,8 +10,8 @@ module LUT_song(
 
 	initial $readmemb("merrychristmas.mem", LUT);
 
-	always @(posedge clk, posedge reset) begin
-		if (counter_time == 'd10000000000) begin
+	always @(posedge clk) begin
+		if (counter_time == 10000000000) begin
 			note_index <= note_index + 1;
 			counter_time <= 0;
 		end else counter_time <= counter_time + 1;

@@ -6,7 +6,6 @@ NET "speaker[3]" LOC = T10;
 NET "speaker[4]" LOC = D5;
 NET "speaker[5]" LOC = P9;
 NET "speaker[6]" LOC = A5;
-
 NET "switches[0]" LOC = N15;
 NET "switches[1]" LOC = J16;
 NET "switches[2]" LOC = K16;
@@ -15,8 +14,3 @@ NET "switches[4]" LOC = L15;
 NET "switches[5]" LOC = M16;
 NET "switches[6]" LOC = M15;
 NET "switches[7]" LOC = N16;
-
-
-INSTRUCTIONS=============
-speaker[6:0] will be assigned to B pins
-switches[7:0] will be assigned to the switches as started here
