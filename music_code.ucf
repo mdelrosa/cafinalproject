@@ -1,0 +1,2 @@
+NET "clk" LOC = A8;
+NET "speaker" LOC = T12;

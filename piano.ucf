@@ -1,0 +1,22 @@
+#piano.ucf
+
+#clk
+NET "clk" LOC = A8;
+
+#GPIO
+NET "speaker[0]" LOC = T14;
+NET "speaker[1]" LOC = R13;
+NET "speaker[2]" LOC = T13;
+NET "speaker[3]" LOC = R12;
+NET "speaker[4]" LOC = T12;
+NET "speaker[5]" LOC = T10;
+NET "speaker[6]" LOC = P8;
+
+#switches
+NET "switches[0]" LOC = N15;
+NET "switches[1]" LOC = J16;
+NET "switches[2]" LOC = K16;
+NET "switches[3]" LOC = K15;
+NET "switches[4]" LOC = L15;
+NET "switches[5]" LOC = M16;
+NET "switches[6]" LOC = M15;
