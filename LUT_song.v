@@ -8,7 +8,7 @@ module LUT_song(
 	reg [6:0] LUT_song [0:47];
 	reg [31:0] note_index;
 
-	initial $readmemb("merrychristmas.mem", LUT_song);
+	initial $readmemb("master.mem", LUT_song);
 
 	always @(posedge clk) begin
 		if (counter_time == 100000000) begin
